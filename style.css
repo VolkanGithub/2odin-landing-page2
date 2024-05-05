@@ -51,13 +51,40 @@ h1 {
 .content {
   display: flex;
   flex-direction: row;
+  margin: 50px;
 }
 
-.content-left,
 .content-right {
   display: flex;
   flex-direction: column;
   width: 50%;
   justify-content: center;
   align-items: center;
+}
+
+.content-left {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  justify-content: center;
+  margin-left: 150px;
+}
+
+img {
+  margin-bottom: 50px;
+}
+
+.p-first {
+  font-size: 18px;
+  color: #e5e7eb;
+
+}
+
+.signup-first-secction {
+  background-color: #3882f6;
+  color: white;
+  width: 100px;
+  height: 40px;
+  border: 1px solid #3882f6;
+  border-radius: 10px;
 }
