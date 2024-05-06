@@ -80,11 +80,73 @@ img {
 
 }
 
-.signup-first-secction {
+.signup-first-section {
   background-color: #3882f6;
   color: white;
   width: 100px;
   height: 40px;
   border: 1px solid #3882f6;
   border-radius: 10px;
+}
+
+h2 {
+  font-size: 36px;
+  color: #1f2937;
+  font-weight: bolder;
+  text-align: center;
+}
+
+.row-of-blue-boxes {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 100%;
+  margin: 100px;
+
+}
+
+.box-blue {
+  color: black;
+  width: 200px;
+  height: 200px;
+  border: 1px solid #707d92;
+  border-style: dashed;
+  border-radius: 10px;
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.second-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.p-second {
+  font-size: 18px;
+  color: #1f2937;
+  text-align: center;
+}
+
+.third-section {
+  background-color: #ebe5e6;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+h3 {
+  font-size: 36px;
+  font-weight: lighter;
+  font-style: italic;
+}
+
+.p-third {
+  font-size: 20px;
+  margin-top: 10px;
 }
