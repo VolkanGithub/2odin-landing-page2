@@ -10,6 +10,11 @@ body {
   font-family: 'Jersey 10', cursive;
 }
 
+a {
+  text-decoration: none;
+  color: #e5e7eb;
+}
+
 .first-section {
   background-color: #1f2937;
 }
@@ -190,7 +195,11 @@ h3 {
   border-style: dashed;
 }
 
-.footer {
+.right {
+  display: flex;
+}
+
+footer {
   background-color: #1f2937;
   color: #f9faf8;
   display: flex;
@@ -198,12 +207,4 @@ h3 {
   justify-content: space-around;
   align-items: center;
   height: 100px;
-}
-
-.footer-link {
-  color: #f9faf8;
-}
-
-.footer-link:hover {
-  color: #3882f6;
 }
