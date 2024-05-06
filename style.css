@@ -3,6 +3,7 @@
 * {
   margin: 0;
   padding: 0;
+  font-family: 'Jersey 10', cursive;
 }
 
 body {
@@ -72,6 +73,9 @@ h1 {
 
 img {
   margin-bottom: 50px;
+  border: 2px solid #707d92;
+  border-radius: 3px;
+  border-style: dashed;
 }
 
 .p-first {
@@ -81,12 +85,18 @@ img {
 }
 
 .signup-first-section {
-  background-color: #3882f6;
   color: white;
   width: 100px;
   height: 40px;
-  border: 1px solid #3882f6;
-  border-radius: 10px;
+  border-radius: 3px;
+  border-style: dashed;
+}
+
+button {
+  margin-top: 10px;
+  border-radius: 3px;
+  border-style: dashed;
+  background-color: #89a3ae;
 }
 
 h2 {
@@ -149,4 +159,51 @@ h3 {
 .p-third {
   font-size: 20px;
   margin-top: 10px;
+}
+
+.last-section {
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.blue-container {
+  background-color: #1f2937;
+  color: white;
+  width: 75%;
+  height: 40%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 3px;
+  border-style: dashed;
+}
+
+.signup-last-section {
+  background-color: #89a3ae;
+  color: white;
+  width: 100px;
+  height: 40px;
+  border-radius: 3px;
+  border-style: dashed;
+}
+
+.footer {
+  background-color: #1f2937;
+  color: #f9faf8;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  height: 100px;
+}
+
+.footer-link {
+  color: #f9faf8;
+}
+
+.footer-link:hover {
+  color: #3882f6;
 }
